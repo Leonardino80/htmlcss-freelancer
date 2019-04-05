@@ -1,0 +1,25 @@
+.container{
+  border: 1px solid red;
+}
+
+.row{
+  border: 1px solid blue;
+}
+
+[class^="col-"]{
+  border: 1px solid green;
+}
+
+.nav-item{
+  display: inline;
+  vertical-align: middle;
+}
+
+.darkgrey{
+  background-color: darkgrey;
+
+}
+
+nav .container .row {
+height: 100px;
+}
